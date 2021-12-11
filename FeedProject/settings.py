@@ -31,6 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'FeedApp',
+    'users',
+     #third party apps
+    'bootstrap4',
+    'crispy_forms',
+    'django_forms_bootstrap', 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
